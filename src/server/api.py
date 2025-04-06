@@ -82,7 +82,7 @@ def create_api(registry: Registry):
 
     @app.post("/agent_call")
     def agent_call(agent_id: str, request: AgentCallRequest):
-        try:
+        try:    
             return registry.execute_agent(agent_id, {"query": request.query})
         except Exception as e:
             print(e)

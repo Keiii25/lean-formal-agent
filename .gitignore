@@ -19,3 +19,6 @@ temp/*
 node_modules/*
 # all node_modules
 src/webapp/node_modules/*
+
+.env
+env/*
