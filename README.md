@@ -1,4 +1,6 @@
-## framework
+## Lean Agent
+
+This project is a fork of [Z-Framework](https://github.com/z-agent/framework)
 
 This framework provides the base for building an easy-to-use platform for agent creation & discovery. It mainly consists of a server-side component that stores a registry of tools & agents which are discoverable by users and can be used to build custom agent workflows on top of. It is built using `fastAPI`, `qdrant`, and the `crewAI` agents framework.
 
